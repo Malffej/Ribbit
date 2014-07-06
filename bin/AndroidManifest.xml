@@ -55,10 +55,17 @@
         <activity
             android:name="com.malffej.ribbit.RecipientsActivity"
             android:label="@string/title_activity_recipients"
-            android:parentActivityName="com.malffej.ribbit.MainActivity" android:screenOrientation="portrait">
+            android:parentActivityName="com.malffej.ribbit.MainActivity"
+            android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.malffej.ribbit.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.malffej.ribbit.ViewImageActivity"
+            android:label="@string/title_activity_view_image"
+            android:parentActivityName="com.malffej.ribbit.MainActivity"
+            android:screenOrientation="portrait" >
         </activity>
     </application>
 
