@@ -23,7 +23,7 @@
         android:label="@string/app_name"
         android:theme="@style/Theme.Ribbit" >
         <activity
-            android:name="com.malffej.ribbit.MainActivity"
+            android:name="com.malffej.ribbit.ui.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -33,38 +33,38 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.malffej.ribbit.LoginActivity"
+            android:name="com.malffej.ribbit.ui.LoginActivity"
             android:label="@string/title_activity_login"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.malffej.ribbit.SignUpActivity"
+            android:name="com.malffej.ribbit.ui.SignUpActivity"
             android:label="@string/title_activity_sign_up"
-            android:parentActivityName="com.malffej.ribbit.LoginActivity"
+            android:parentActivityName="com.malffej.ribbit.ui.LoginActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.malffej.ribbit.EditFriendsActivity"
+            android:name="com.malffej.ribbit.ui.EditFriendsActivity"
             android:label="@string/title_activity_edit_friends"
-            android:parentActivityName="com.malffej.ribbit.MainActivity"
+            android:parentActivityName="com.malffej.ribbit.ui.MainActivity"
             android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.malffej.ribbit.MainActivity" />
         </activity>
         <activity
-            android:name="com.malffej.ribbit.RecipientsActivity"
+            android:name="com.malffej.ribbit.ui.RecipientsActivity"
             android:label="@string/title_activity_recipients"
-            android:parentActivityName="com.malffej.ribbit.MainActivity"
+            android:parentActivityName="com.malffej.ribbit.ui.MainActivity"
             android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.malffej.ribbit.MainActivity" />
         </activity>
         <activity
-            android:name="com.malffej.ribbit.ViewImageActivity"
+            android:name="com.malffej.ribbit.ui.ViewImageActivity"
             android:label="@string/title_activity_view_image"
-            android:parentActivityName="com.malffej.ribbit.MainActivity"
+            android:parentActivityName="com.malffej.ribbit.ui.MainActivity"
             android:screenOrientation="portrait" >
         </activity>
     </application>
